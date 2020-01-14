@@ -49,7 +49,7 @@ public class DataUtil {
         sql.append(table());
         sql.append("where id_="+id);
         dataProperties.setSql(sql.toString());
-        return dataProperties;
+        return dataProperties ;
     }
 
     public DataProperties delete(Integer id){
